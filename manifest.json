@@ -1,0 +1,17 @@
+{
+	"short_name":"Tester",
+	"name":"Tester",
+	"icons":[
+		{
+			"src":"Icon.png",
+			"type":"image/png",
+			"sizes":"192x192"
+		}
+	],
+	"lang":"ja-JP",
+	"description":"Testerは,Web系の幾つかの言語をテストすることのできる軽量ツールです。。",
+	"display":"standalone",
+	"start_url":"?standalone=yes",
+	"background_color":"#999999",
+	"theme_color":"#999999"
+}
