@@ -21,14 +21,14 @@ Testerは,Web系の幾つかの言語をテストすることのできる軽量�
 - “︎D”を︎押すと,ダークモードのオン/オフを切り替えれられる。
 
 ### テストできる内容
-- HTML
+- HTML  
 	HTMLの本文 ( `<body>` ~ `</body>` の間に含まれる内容) をテストできる。HTMLコードをプレビューで表示できるだけでなく,WYSIWYGで編集した内容をソースコードに戻すこともできる。
-- JavaScript
+- JavaScript  
 	JavaScriptをテストできる。一部のコンソールにも対応し,エラーを表示することもできる。  
 	オンライン版はColorライブラリを利用できる。詳しくは,[Colorライブラリ](https://akimikimikimikimikimikimika.github.io/Library/Color.html "Colorライブラリ")で。
-- HTML (full)
+- HTML (full)  
 	上述のHTMLとは違い,HTML文書全体をテストできる。
-- MathML
+- MathML  
 	MathMLの `<math>` ~ `</math>` に含まれる部分をテストできる。
 
 ### 特記事項
@@ -38,6 +38,9 @@ Testerは,Web系の幾つかの言語をテストすることのできる軽量�
 - iOSデバイスでは,ホーム画面にアイコンを追加すると,スタンドアロンで開く。
 - iOSのChromeでは適切に表示されない。
 - iPhone X 対応。
+
+### 更新内容
+モバイルデバイスでの操作のしづらさを修正した。そのほか,幾つかのレイアウト上の問題を修正した。
 
 ### 開く
 - [オンライン版](https://akimikimikimikimikimikimika.github.io/Tester/Tester.html "Testerオンライン版")
