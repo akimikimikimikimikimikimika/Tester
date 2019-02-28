@@ -25,7 +25,7 @@ Testerは,Web系の幾つかの言語をテストすることのできる軽量�
 	HTMLの本文 ( `<body>` ~ `</body>` の間に含まれる内容) をテストできる。HTMLコードをプレビューで表示できるだけでなく,WYSIWYGで編集した内容をソースコードに戻すこともできる。
 - JavaScript  
 	JavaScriptをテストできる。一部のコンソールにも対応し,エラーを表示することもできる。  
-	オンライン版はColorライブラリを利用できる。詳しくは,[Colorライブラリ](https://akimikimikimikimikimikimika.github.io/Library/Color.html "Colorライブラリ")で。
+	オンライン版はColorライブラリを利用できる。詳しくは,[Colorライブラリ](https://akimikimikimikimikimikimika.github.io/Library/Color/ "Colorライブラリ")で。
 - HTML (full)  
 	上述のHTMLとは違い,HTML文書全体をテストできる。
 - MathML  
