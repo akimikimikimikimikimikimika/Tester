@@ -1,5 +1,7 @@
 ## Tester
 
+![Tester](Icon.png "Tester")  
+
 Testerは,Web系の幾つかの言語をテストすることのできる軽量ツールです。
 
 ### 基本
@@ -40,7 +42,7 @@ Testerは,Web系の幾つかの言語をテストすることのできる軽量�
 - iPhone X 対応。
 
 ### 更新内容
-モバイルデバイスでの操作のしづらさを修正した。そのほか,幾つかのレイアウト上の問題を修正した。
+HTML (full) のテストができなくなっている問題を修正。
 
 ### 開く
 - [オンライン版](https://akimikimikimikimikimikimika.github.io/Tester/Tester.html "Testerオンライン版")
