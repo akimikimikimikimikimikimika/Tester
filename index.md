@@ -27,25 +27,45 @@ Testerは,Web系の幾つかの言語をテストすることのできる軽量�
 	HTMLの本文 ( `<body>` ~ `</body>` の間に含まれる内容) をテストできる。HTMLコードをプレビューで表示できるだけでなく,WYSIWYGで編集した内容をソースコードに戻すこともできる。
 - JavaScript  
 	JavaScriptをテストできる。  
-	一部のコンソールにも対応し,エラーを表示することもできる。  
-	オンライン版はColorライブラリを利用できる。詳しくは,[Colorライブラリ](https://akimikimikimikimikimikimika.github.io/Library/Color/ "Colorライブラリ")で。
+	一部のコンソールにも対応し,エラーを表示することもできる。
 - HTML (full)  
 	上述のHTMLとは違い,HTML文書全体をテストできる。
 - MathML  
 	MathMLの `<math>` ~ `</math>` に含まれる部分をテストできる。
+
+### JavaScript テストにおける機能
+
+- Web Worker
+	記述したコードをWeb Worker上で実行することができ,Web Worker上での動作をテストすることができる。  
+	`"use strict";` のように,コード先頭に次の指定をすることで実行環境を変更できる。
+	| 指定 | モード |
+	|:---:|:------|
+	| `"main";` | メインページ上で実行 |
+	| `"worker";` | Web Worker ワークレット上で実行 |
+	| 指定なし | メインページ上で実行 |
+
+- ライブラリ
+	外部ライブラリを容易に読み込むことができる。  
+	`use(` *`identifier`* `)` でライブラリを読み込み,Promiseを返す。Promiseは解決され,戻り値として読み込みの成否を真偽値で示す。  
+	`canIUse(` *`identifier`* `)` はライブラリが使える状態にあるかどうかを示す函数。`use()` 以外の方法で読み込んだライブラリは認識しない。  
+	両方の函数において, *`identifier`* には以下の文字列を指定可能
+
+	| 指定 | モード |
+	|:---:|:------|
+	| `"Color"` | [Colorライブラリ](https://akimikimikimikimikimikimika.github.io/Library/Color/ "Colorライブラリ") |
+	| `"jQuery"` | jQuery |
+	| `<URL>` | 指定したURLのライブラリを読み込み,利用する。 |
+
 
 ### 特記事項
 - JavaScript,CSSを無効にすると利用できない。
 - 同じURLでそのままデスクトップでも,モバイルでも利用できる。
 - Internet Explorerでは利用できない。
 - iOSデバイスでは,ホーム画面にアイコンを追加すると,スタンドアロンで開く。
-- iOSのChromeでは適切に表示されない。
 - iPhone X 対応。
 
 ### 更新内容
-対応するmacOS,iOSデバイスにおいて,ライトモード/ダークモードの切り替えに対応。  
-JavaScriptのテストにおいて,printやprintln関数で出力可能にした。  
-不正確な動作をするバグを修正。
+JavaScript を Web Worker 上で実行させることに対応。
 
 ### 開く
 - [オンライン版](https://akimikimikimikimikimikimika.github.io/Tester/Tester.html "Testerオンライン版")
