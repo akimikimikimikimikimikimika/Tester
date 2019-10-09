@@ -57,6 +57,7 @@ Testerは,Web系の幾つかの言語をテストすることのできる軽量�
 	| 指定 | モード |
 	|:---:|:------|
 	| `"Color"` | [Colorライブラリ](https://akimikimikimikimikimikimika.github.io/Library/Color/ "Colorライブラリ") |
+	| `"Math"` | [Mathライブラリ](https://akimikimikimikimikimikimika.github.io/Library/Math/ "Mathライブラリ") |
 	| `"jQuery"` | jQuery |
 	| `"<URL>"` | 指定したURLのライブラリを読み込み,利用する。 |
 
