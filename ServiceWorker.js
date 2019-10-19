@@ -1,1 +1,1 @@
-importScripts("../Library/SW/SW.js");cacheManager({name:"Tester",build:[2019,10,19],list:["./Tester.html","./Style.css","./Script.js","./ServiceWorker.js","./manifest.json","./Mask.svg","./Icon.png","./Favicon.ico","./apple-touch-icon.png","./tileImage.png"]});
+importScripts("../Library/SW/SW.js");cacheManager({name:"Tester",build:[2019,10,19],list:["Tester.html","Style.css","Script.js","ServiceWorker.js","manifest.json","Mask.svg","Icon.png","Favicon.ico","apple-touch-icon.png","tileImage.png"]});
